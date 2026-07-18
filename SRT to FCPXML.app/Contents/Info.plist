@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleDevelopmentRegion</key><string>ko</string>
+  <key>CFBundleExecutable</key><string>SRTtoFCPXML</string>
+  <key>CFBundleIdentifier</key><string>local.codex.srt-to-fcpxml</string>
+  <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+  <key>CFBundleName</key><string>SRT to FCPXML</string>
+  <key>CFBundleDisplayName</key><string>SRT → FCPXML</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>1.0</string>
+  <key>CFBundleVersion</key><string>12</string>
+  <key>CFBundleDocumentTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleTypeName</key><string>SRT Subtitle</string>
+      <key>CFBundleTypeRole</key><string>Editor</string>
+      <key>LSHandlerRank</key><string>Alternate</string>
+      <key>CFBundleTypeExtensions</key><array><string>srt</string></array>
+      <key>LSItemContentTypes</key><array><string>public.subtitle</string><string>public.text</string></array>
+    </dict>
+    <dict>
+      <key>CFBundleTypeName</key><string>Final Cut Pro XML</string>
+      <key>CFBundleTypeRole</key><string>Editor</string>
+      <key>LSHandlerRank</key><string>Alternate</string>
+      <key>CFBundleTypeExtensions</key><array><string>fcpxml</string><string>xml</string></array>
+      <key>LSItemContentTypes</key><array><string>public.xml</string></array>
+    </dict>
+    <dict>
+      <key>CFBundleTypeName</key><string>Apple Motion Title</string>
+      <key>CFBundleTypeRole</key><string>Editor</string>
+      <key>LSHandlerRank</key><string>Alternate</string>
+      <key>CFBundleTypeExtensions</key><array><string>moti</string></array>
+    </dict>
+  </array>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>NSHighResolutionCapable</key><true/>
+</dict></plist>
