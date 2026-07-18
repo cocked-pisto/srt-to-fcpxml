@@ -1,5 +1,7 @@
 # SRT → FCPXML 템플릿 변환기
 
+![앱 아이콘](MacApp/Assets/AppIcon-1024.png)
+
 사용자가 Final Cut Pro에서 내보낸 FCPXML의 첫 번째 `title` 클립을 디자인 템플릿으로 사용해 SRT 자막을 생성합니다.
 
 ## macOS 앱 실행

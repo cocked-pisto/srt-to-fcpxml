@@ -7,9 +7,10 @@
   <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
   <key>CFBundleName</key><string>SRT to FCPXML</string>
   <key>CFBundleDisplayName</key><string>SRT → FCPXML</string>
+  <key>CFBundleIconFile</key><string>AppIcon.icns</string>
   <key>CFBundlePackageType</key><string>APPL</string>
   <key>CFBundleShortVersionString</key><string>1.0</string>
-  <key>CFBundleVersion</key><string>12</string>
+  <key>CFBundleVersion</key><string>13</string>
   <key>CFBundleDocumentTypes</key>
   <array>
     <dict>
